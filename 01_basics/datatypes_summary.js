@@ -29,3 +29,39 @@ Return type of variables in JavaScript
        Function  => function object
        Object  =>  object
 */
+
+
+/*+++++++++++++++++++ Memory ++++++++++++++++++++++++++++++
+   2 Types of memory in JS
+   1- Stack (Primitive)
+   2- Heap (Non Primitive) */
+
+
+   // Example of Stack memory 
+
+   let myname = "Ritik";
+   let anothername = myname;
+   anothername = "Virat" 
+   console.log(anothername);
+   console.log(myname);
+
+   
+
+   // Example of Heap memory 
+
+   let userOne ={
+       email : "user@google.com",
+       upi : "upi@apx",
+   }
+
+   let userTwo = userOne;
+   userTwo.email = "ritik@google.com";
+
+   console.log(userOne.email);
+   console.log(userTwo.email);
+
+   /* In sort in Stack memory if we chnge the refered value then the original value will not be chnged bcz it provide the copied 
+   value (reference value) while in Heap memory if chnged the refered value then the it will chged the original value also. */
+   
+
+   
