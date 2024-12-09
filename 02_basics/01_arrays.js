@@ -44,11 +44,11 @@ console.log("B",Arr);
 
 const myn2 = Arr.splice(1,3);   // In splice it will gave the simialr result as slice but it will include the last value and also make chnges in the existing array(remove the element from the array )
 console.log(myn2);        // A [ 2, 4, 5, 6, 7 ]
-                          // [ 4, 5 ]
+console.log("c",Arr);     // [ 4, 5 ]
                           // B [ 2, 4, 5, 6, 7 ]   // slice array 
                           // [ 4, 5, 6 ]
                           // c [ 2, 7 ]            // splice array 
-console.log("c",Arr);
+                        
 
 
 
