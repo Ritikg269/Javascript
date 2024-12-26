@@ -1,4 +1,4 @@
-export const coding = ["java","cpp","JS","Python"]
+ const coding = ["java","cpp","JS","Python"]
 coding.forEach  (function (val){
     console.log(val);  
 })
